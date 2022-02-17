@@ -1,0 +1,22 @@
+program to reads in three numbers and writes them all in sorted order
+
+let the numbers be a, b and c
+
+input a, b, c
+
+IF a > b OR a > c THEN
+   IF b > c THEN
+      print a, b, c
+   ELSE
+      print a, c, b
+ELSE IF b > a OR b > c THEN
+   IF a > c THEN
+      print b, a, c
+   ELSE
+      print b, c, a
+ELSE IF c > a OR c > b THEN
+   IF b > a THEN
+      print c, b, a
+   ELSE
+      print c, a, b
+ 
