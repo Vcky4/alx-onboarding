@@ -1,0 +1,8 @@
+a program to Calculate a running sum and terminates when encounter negative number
+
+input a number p
+sum = 0
+WHILE p is positive
+    sum = sum + p
+    input p again
+print sum
