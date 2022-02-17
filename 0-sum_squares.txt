@@ -1,0 +1,12 @@
+this program will give the sum of square of a given number
+
+let the input number be n
+sum = 0
+set i = 0
+FOR LOOP:
+    i = i + 1
+    sum = sum + i times i
+    Break IF i == n
+print sum
+ 
+
